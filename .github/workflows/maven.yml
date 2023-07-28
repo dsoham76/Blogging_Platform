@@ -27,6 +27,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file ./Blogging-Platform-API/pom.xml
+      run: mvn -B package --file Blogging_Platform_API
+/Blogging-Platform-API/pom.xml
 
   
